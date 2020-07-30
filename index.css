@@ -1,0 +1,83 @@
+
+img[src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg"], form {
+  margin: auto;
+  position: absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+img[src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg"] {
+  top: 30%;
+  left: 50%; }
+
+form {
+  top: 45%;
+  left: 35%; }
+
+input[value="Google Search"], input[value="I'm Feeling Lucky"] {
+  margin: auto;
+  position: absolute;
+  top: 120%;
+  left: 95%;
+  background-color: lightgrey;
+  height: 70%;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 6px;
+  opacity: 0.4; }
+
+input[value="Google Search"]:hover, input[value="I'm Feeling Lucky"]:hover {
+  border: 1px solid black;
+  text-emphasis: black;
+  opacity: 0.8;
+  background-color: #ededed; }
+
+input[value="Google Search"] {
+  transform: translate(-60%, 0%); }
+
+input[value="I'm Feeling Lucky"] {
+  transform: translate(60%, 0%); }
+
+input[type=text] {
+  border: 1px solid lightgrey;
+  margin: auto;
+  border-radius: 50px;
+  width: 250%;
+  left: 35%;
+  right: 40%;
+  font-size: 16px;
+  padding: 12px 20px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  background-color: white;
+  background-image: url("https://img.icons8.com/pastel-glyph/2x/search.png");
+  background-position: 10px 10px;
+  padding: 12px 20px 12px 40px; }
+
+input[type=text]:focus, input[type=text]:hover {
+  outline: none;
+  box-shadow: 5px 5px 15px lightgrey; }
+
+input[type=text]:focus {
+  border: 3px solid lightgrey; }
+
+input[type=text]:hover {
+  border: 1px solid lightgrey;
+  outline: none;
+  box-shadow: 5px 5px 15px lightgrey; }
+
+a[href="GoogleadvancedSearch.html"]:link, a[href="GoogleImageSearch.html"]:link {
+  text-decoration: none;
+  color: red; }
+
+a[href="GoogleadvancedSearch.html"]:visited, a[href="GoogleImageSearch.html"]:visited {
+  color: green;
+  text-decoration: none; }
+
+a[href="GoogleadvancedSearch.html"]:hover, a[href="GoogleImageSearch.html"]:hover {
+  color: hotpink;
+  text-decoration: underline; }
+
+/*# sourceMappingURL=index.css.map */
