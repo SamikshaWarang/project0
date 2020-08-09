@@ -4,7 +4,7 @@
         <title>Search</title>
         <link rel="stylesheet" href="GoogleAdvancedSearch.css">     
     </head>
-    <body>
+    <body class="jfk-scrollbar">
         <div class="bottom-wrapper">
             <div>
                 <div class="myDiv">         
@@ -17,35 +17,445 @@
             </div>
             <div class="abcd"></div>
             <div class="main">
-                <form action="/search" method="GET" name="f" id="two">
-                    <div class="f1">
-                        <div class="f11">
-                    <div class="f111">
-                        <div class="f1111">
-                            <span>Find Pages with...</span>
-                        </div>
-                    </div>
-                    <div class="f11111">&nbsp;</div> 
-                    <div class="f0">
-                        <div class="f00">To do this in search box.</div>
-                    </div>
-                    </div>              
-                    </div>
-                    <div class="f2">
-                        <div class ="f21">
-                            <div class="f22">
-                                <div class="f23">
-                                    <label for="f26">all these words:</label>
+                <form action="/search" id="two" method="GET" name="f" style="color:black;">
+                    <div class="first">
+                        <div class="first1">
+                            <div class="pagehead">
+                                <div class="pageheadin">
+                                <div>
+                                    <span>Find pages with...</span>
+                                </div>
                                 </div>
                             </div>
-                            <div class="f24">
-                                <div class="f25">
-                                    <input class="jk-textinput" id ="f26" autofocus="autofocus" name="i_q" type="text">
+                            <div class="pageheadrhs1">
+                                <div>&nbsp;</div>
+                            </div>
+                            <div class="pageheadrhs2">
+                                <div class="pagehead21">
+                                    To do this in the search box.
                                 </div>
                             </div>
                         </div>
                     </div>
-                </form>                
+                    <div class="first">
+                        <div class="first1">
+                            <div class="lhs1">
+                                <div class="lhs11">
+                                    <label for="three">all these words:</label>      
+                                </div>
+                            </div>
+                            <div class="rhs1">
+                                <div class="rhs11">
+                                <input type="text" value autofocus="autofocus" id="three" class="inp1" name="input1">
+                                </div>
+                            </div>
+                            <div class="rhs2">
+                                <div class="rhs21">
+                                Type the important words :
+                                <span class="rhs_span">tri-colour rat terrier</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="first1">
+                            <div class="lhs2">
+                                <div class="lhs21">
+                                    <label for="four">this exact word or phrase:</label>      
+                                </div>
+                            </div>
+                            <div class="rhs3">
+                                <div class="rhs31">
+                                <input type="text" value autofocus="autofocus" id="four" class="inp2" name="input2">
+                                </div>
+                            </div>
+                            <div class="rhs4">
+                                <div class="rhs41">
+                                    Put exact words in quotes:
+                                <span class="rhs_span"> " rat terrier "</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="first1">
+                            <div class="lhs3">
+                                <div class="lhs31">
+                                    <label for="five">any of these words:</label>      
+                                </div>
+                            </div>
+                            <div class="rhs5">
+                                <div class="rhs51">
+                                <input type="text" value autofocus="autofocus" id="five" class="inp3" name="input3">
+                                </div>
+                            </div>
+                            <div class="rhs6" >
+                                <div class="rhs61">
+                                    Type OR between all the words you want :
+                                <span class="rhs_span">miniature OR standard</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="first1">
+                            <div class="lhs4">
+                                <div class="lhs41">
+                                    <label for="six">none of these words:</label>      
+                                </div>
+                            </div>
+                            <div class="rhs7">
+                                <div class="rhs71">
+                                <input type="text" value autofocus="autofocus" id="six" class="inp4" name="input4">
+                                </div>
+                            </div>
+                            <div class="rhs8">
+                                <div class="rhs81">
+                                    Put a minus sign just before words that you don't want :
+                                <span class="rhs_span">-rodent, -"Jack Russell"</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="first1">
+                            <div class="lhs5">
+                                <div class="lhs51">
+                                    <label for="rhs9">numbers ranging from:</label>      
+                                </div>
+                            </div>
+                            <div class="rhs9">
+                                <div class="rhs91">
+                                    <div class="rhs92">
+                                        <input type="text" value autofocus="autofocus" id="seven" class="inp5" name="input5">
+                                    </div>
+                                    <div class="rhs9_mid">to</div>
+                                    <div class="rhs93">
+                                        <input type="text" value autofocus="autofocus" id="eight" class="inp6" name="input6">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rhs10">
+                                <div class="rhs101">
+                                    Put two full stops between the numbers and add a unit of measurement:
+                                <span class="rhs_span">10..35 kg, £300..£500, 2010..2011</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="break"></div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="first">
+                        <div class="first1">
+                            <div class="pagehead">
+                                <div class="pageheadin">
+                                <div>
+                                    <span>Then narrow your results by...</span>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="first">
+                        <div class="first1">
+                            <div class="lhs1">
+                                <div class="lhs11">
+                                    <label for="nine">language:</label>      
+                                </div>
+                            </div>
+                            <div class="rhs1">
+                                <div class="rhslower">
+                                <select class="classic">
+                                    <option>any language</option>
+                                    <option value="AF">Afrikaans</option>
+<option value="SQ">Albanian</option>
+<option value="AR">Arabic</option>
+<option value="HY">Armenian</option>
+<option value="EU">Basque</option>
+<option value="BN">Bengali</option>
+<option value="BG">Bulgarian</option>
+<option value="CA">Catalan</option>
+<option value="KM">Cambodian</option>
+<option value="ZH">Chinese (Mandarin)</option>
+<option value="HR">Croatian</option>
+<option value="CS">Czech</option>
+<option value="DA">Danish</option>
+<option value="NL">Dutch</option>
+<option value="EN">English</option>
+<option value="ET">Estonian</option>
+<option value="FJ">Fiji</option>
+<option value="FI">Finnish</option>
+<option value="FR">French</option>
+<option value="KA">Georgian</option>
+<option value="DE">German</option>
+<option value="EL">Greek</option>
+<option value="GU">Gujarati</option>
+<option value="HE">Hebrew</option>
+<option value="HI">Hindi</option>
+<option value="HU">Hungarian</option>
+<option value="IS">Icelandic</option>
+<option value="ID">Indonesian</option>
+<option value="GA">Irish</option>
+<option value="IT">Italian</option>
+<option value="JA">Japanese</option>
+<option value="JW">Javanese</option>
+<option value="KO">Korean</option>
+<option value="LA">Latin</option>
+<option value="LV">Latvian</option>
+<option value="LT">Lithuanian</option>
+<option value="MK">Macedonian</option>
+<option value="MS">Malay</option>
+<option value="ML">Malayalam</option>
+<option value="MT">Maltese</option>
+<option value="MI">Maori</option>
+<option value="MR">Marathi</option>
+<option value="MN">Mongolian</option>
+<option value="NE">Nepali</option>
+<option value="NO">Norwegian</option>
+<option value="FA">Persian</option>
+<option value="PL">Polish</option>
+<option value="PT">Portuguese</option>
+<option value="PA">Punjabi</option>
+<option value="QU">Quechua</option>
+<option value="RO">Romanian</option>
+<option value="RU">Russian</option>
+<option value="SM">Samoan</option>
+<option value="SR">Serbian</option>
+<option value="SK">Slovak</option>
+<option value="SL">Slovenian</option>
+<option value="ES">Spanish</option>
+<option value="SW">Swahili</option>
+<option value="SV">Swedish </option>
+<option value="TA">Tamil</option>
+<option value="TT">Tatar</option>
+<option value="TE">Telugu</option>
+<option value="TH">Thai</option>
+<option value="BO">Tibetan</option>
+<option value="TO">Tonga</option>
+<option value="TR">Turkish</option>
+<option value="UK">Ukrainian</option>
+<option value="UR">Urdu</option>
+<option value="UZ">Uzbek</option>
+<option value="VI">Vietnamese</option>
+<option value="CY">Welsh</option>
+<option value="XH">Xhosa</option>
+                                  </select>
+                                </div>
+                            </div>
+                            <div class="rhs2">
+                                <div class="rhs21">
+                                    Find pages in the language that you select.
+                                <span class="rhs_span"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="first1">
+                            <div class="lhs2">
+                                <div class="lhs21">
+                                    <label for="ten">region:</label>      
+                                </div>
+                            </div>
+                            <div class="rhs3">
+                                <div class="rhslower">
+                                    <select id="ten"  class="classic" name="input8">
+                                        <option value="any language">any language</option>
+                                        <option value="English">English</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="rhs4">
+                                <div class="rhs41">
+                                    Find pages published in a particular region.
+                                <span class="rhs_span"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="first1">
+                            <div class="lhs3">
+                                <div class="lhs31">
+                                    <label for="eleven">last update:</label>      
+                                </div>
+                            </div>
+                            <div class="rhs5">
+                                <div class="rhslower">
+                                    <select id="eleven"  class="classic" name="input9">
+                                        <option value="any time">any time</option>
+                                        <option value="last 24 hours">last 24 hours</option>
+                                        <option value="upto a week ago">upto a week ago</option>
+                                        <option value="upto a month ago">upto a month ago</option>
+                                        <option value="upto a year ago">upto a year ago</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="rhs6" >
+                                <div class="rhs61">
+                                    Find pages updated within the time that you specify.
+                                <span class="rhs_span"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="first1">
+                            <div class="lhs4">
+                                <div class="lhs41">
+                                    <label for="twelve">site or domain:</label>      
+                                </div>
+                            </div>
+                            <div class="rhs7">
+                                <div class="rhslower">
+                                    <input type="text" value autofocus="autofocus" id="nine" class="inp7" name="input7">
+                                </div>
+                            </div>
+                            <div class="rhs8">
+                                <div class="rhs81">
+                                    Search one site (like wikipedia.org ) or limit your results to a domain like
+                                <span class="rhs_span"> .edu, .org or .gov</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="first1">
+                            <div class="lhs4">
+                                <div class="lhs41">
+                                    <label for="thirt">terms appearing:</label>      
+                                </div>
+                            </div>
+                            <div class="rhs7">
+                                <div class="rhslower">
+                                    <select id="thirt"  class="classic" name="input11">
+                                        <option value="anywhere in the page">anywhere in the page</option>
+                                        <option value="in the title of the page">in the title of the page</option>
+                                        <option value="in the text of the page">in the text of the page</option>
+                                        <option value="in the URL of the page">in the URL of the page</option>
+                                        <option value="in links to the page">in links to the page</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="rhs8">
+                                <div class="rhs81">
+                                    Search for terms in the whole page, page title or web address,or links to the 
+                                <span class="rhs_span">page you're looking for.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="first1">
+                            <div class="lhs4">
+                                <div class="lhs41">
+                                    <label for="fort" style="color: blue;">SafeSearch:</label>      
+                                </div>
+                            </div>
+                            <div class="rhs7">
+                                <div class="rhslower">
+                                    <select id="fort"  class="classic" name="input12">
+                                        <option value="Show most relevant results">Show most relevant results</option>
+                                        <option value="Filter explicit results">Filter explicit results</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="rhs8">
+                                <div class="rhs81">
+                                    Tell SafeSearch whether to filter sexually explicit content.
+                                <span class="rhs_span"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="first1">
+                            <div class="lhs4">
+                                <div class="lhs41">
+                                    <label for="fift">file type:</label>      
+                                </div>
+                            </div>
+                            <div class="rhs7">
+                                <div class="rhslower">
+                                    <select id="fift"  class="classic" name="input13">
+                                        <option value="any format">any format</option>
+                                        <option value="Adobe Acrobat PDF(.pdf)">Adobe Acrobat PDF(.pdf)</option>
+                                        <option value="Adobe Postscript(.ps)">Adobe Postscript(.ps)</option>
+                                        <option value="Autodesk DWF(.dwf)">Autodesk DWF(.dwf)</option>
+                                        <option value="Google Earth KML(.kml)">Google Earth KML(.kml)</option>
+                                        <option value="Google Earth KML(.kmz)">Google Earth KML(.kmz)</option>
+                                        <option value="Microsoft Excel(.xls)">Microsoft Excel(.xls)</option>
+                                        <option value="Microsoft PowerPoint(.ppt)">Microsoft PowerPoint(.ppt)</option>
+                                        <option value="Microsoft Word(.doc)">Microsoft Word(.doc)</option>
+                                        <option value="Rich Text Format(.rtf)">Rich Text Format(.rtf)</option>
+                                        <option value="Shockwave Flash(.swf)">Shockwave Flash(.swf)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="rhs8">
+                                <div class="rhs81">
+                                    Find pages in the format that you prefer.
+                                <span class="rhs_span"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="first1">
+                            <div class="lhs4">
+                                <div class="lhs41">
+                                    <label for="sixt" style="color: blue;">usage rights:</label>      
+                                </div>
+                            </div>
+                            <div class="rhs7">
+                                <div class="rhslower">
+                                 <select id="sixt"  class="classic" name="input11">
+                                    <option value="not filtered by licence">not filtered by licence</option>
+                                    <option value="free to use or share">free to use or share</option>
+                                    <option value="free to use or share,even commercially">free to use or share,even comercially</option>
+                                    <option value="free to use share or modify">free to use share or modify</option>
+                                    <option value="free to use , share or modify, even commercially">free to use , share or modify, even comercially</option>
+                                </select>
+                                </div>
+                            </div>
+                            <div class="rhs8">
+                                <div class="rhs81">
+                                    Find pages that you are free to use yourself.
+                                <span class="rhs_span"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="first1">
+                            <div class="lhs4"></div>
+                            <div class="rhs9">
+                                <div class="button0">
+                                <button class="button1" type="submit" value="Advanced Search" formaction="https://google.com/search">Advanced Search</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="break"></div>
+                    </div>   
+                    <div class="divider"></div>
+                </form>
+                <div class="links">
+                    <div class="lhs8">
+                        <div class="lhs81">
+                            <span>You can also...</span>
+                        </div>
+                    </div>
+                    <div class="first1">
+                        <a class=" A1" href="https://support.google.com/websearch/answer/2466433?visit_id=637325702001959448-1805475224&p=adv_pages_similar&hl=en">
+                            Find pages that are similar to a URL
+                        </a>
+                    </div>
+                    <div>
+                        <a class=" A1" href="https://support.google.com/websearch/answer/54068?p=adv_pages_visited&hl=en1">Search pages that you've visited</a>
+                    </div>
+                    <div>
+                        <a class=" A1" href="https://support.google.com/websearch/answer/2466433?visit_id=637325702001959448-1805475224&p=adv_operators&hl=en">Use operators in the search box</a>
+                    </div>
+                    <div>
+                        <a class=" A1" href="https://www.google.com/preferences?hl=en-IN">Customise your search settings</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="bottombar" id="bbar">
+                <div id="bar" style="left: 0; right: 0;">
+                    <div class="bar b2hzT">
+                        <div class="b0KoTc B4GxFc">
+                            <span class="Q8LRLc">India</span>
+                        </div>
+                    </div>
+                    <div class="bar"></div>
+                        <span class="B4GxFc">
+                            <span id="fsl">
+                                <a class="Fx4vi" href="https://support.google.com/websearch/?p=ws_results_help&amp;hl=en-IN&amp;fg=1" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;url=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Den-IN%26fg%3D1&amp;ved=0ahUKEwif6MGgk47rAhWmwTgGHV28ASIQ8KwCCAE">Help</a>
+                                <a class="Fx4vi" href="https://policies.google.com/privacy?hl=en-IN&amp;fg=1" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;url=https://policies.google.com/privacy%3Fhl%3Den-IN%26fg%3D1&amp;ved=0ahUKEwif6MGgk47rAhWmwTgGHV28ASIQ8awCCAI">Privacy</a>
+                                <a class="Fx4vi" href="https://policies.google.com/terms?hl=en-IN&amp;fg=1" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;url=https://policies.google.com/terms%3Fhl%3Den-IN%26fg%3D1&amp;ved=0ahUKEwif6MGgk47rAhWmwTgGHV28ASIQ8qwCCAM">Terms</a>
+                            </span>
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
