@@ -132,6 +132,11 @@ a[href="GoogleImageSearch.html"]{
    font-size: 16px;
    text-decoration:none ;
 }
+a[href="https://support.google.com/websearch/answer/510?p=adv_safesearch&hl=en&visit_id=637337037140506141-1906020529&rd=1"],a[href="https://support.google.com/websearch/answer/29508?p=ws_images_usagerights&hl=en&visit_id=637337037140506141-1906020529&rd=1"]{
+   color: blue;
+   font-size: 16px;
+   text-decoration:none ;
+}
  
  a[href="GoogleImageSearch.html"]:visited{
  color:black;  
@@ -142,6 +147,11 @@ a[href="GoogleImageSearch.html"]{
    color: black;  
    text-decoration: underline;
    }
+
+   a[href="https://support.google.com/websearch/answer/510?p=adv_safesearch&hl=en&visit_id=637337037140506141-1906020529&rd=1"]:hover,a[href="https://support.google.com/websearch/answer/29508?p=ws_images_usagerights&hl=en&visit_id=637337037140506141-1906020529&rd=1"]:hover{
+      color: blue;  
+      text-decoration: underline;
+      }
    
 .appbar{
    color: #d93025;
@@ -372,7 +382,7 @@ input[type="text"]{
 }
 
 
-#three ,#four ,#five ,#six ,#seven ,#eight {
+#as_q ,#as_epq ,#as_oq ,#as_nhi ,#as_nlo,#as_eq{
    // -webkit-transition: all 0.30s ease-in-out;
    // -moz-transition: all 0.30s ease-in-out;
    // -ms-transition: all 0.30s ease-in-out;
@@ -390,7 +400,7 @@ input[type="text"]{
    margin:auto;
  }
   
- #nine{
+ #as_sitesearch{
  height: 30px;
    outline: none;
    padding: 1px 8px;
@@ -403,7 +413,7 @@ input[type="text"]{
    vertical-align: middle;
    margin:auto;
  }
-#three:focus,#four:focus,#five:focus,#six:focus,#seven:focus,#eight:focus,#nine:focus{
+#as_q:focus,#as_eq:focus,#as_epq:focus,#as_oq:focus,#as_nhi:focus,#as_nlo:focus,#as_sitesearch:focus{
    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
    border: 1px solid rgba(81, 203, 238, 1);
  }
